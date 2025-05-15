@@ -191,7 +191,7 @@ include 'includes/navbar.php';
 
                                             <div class="section-head padding-box-2 text-light">
                                                 <h6><span>WHO WE ARE</span></h6>
-                                                <h2 class="section-title">Our Mission,<br>Values and Motto</h2>
+                                                <h2 class="section-title">Our Mission<br>Values and Motto</h2>
                                             </div>
 
                                             <div class="wpb_text_column wpb_content_element padding-box-2 text-light">
