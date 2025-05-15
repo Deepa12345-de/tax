@@ -218,139 +218,174 @@ include 'includes/navbar.php';
             </div>
         </div>
     </section>
-    <section class="wpb_row row-fluid section-padd">
-        <div class="container">
-            <div class="row">
-                <div class="wpb_column column_container col-sm-12 col-md-9">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="section-head ">
-                                <h6><span>OUR SERVICES</span></h6>
-                                <h2 class="section-title">What we bring to you</h2>
-                            </div>
+<!--Service catelog Start-->
 
-                            <div class="empty_space_30 md-hidden sm-hidden"><span class="empty_space_inner"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-12 col-md-3">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="wpb_text_column wpb_content_element text-right mobile-left">
-                                <div class="wpb_wrapper">
-                                    <p><a class="pagelink gray" href="services.html">All services</a></p>
+<div class="clearfix"></div>
+<section id="team" class="pb-5 custom-team-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="custom-section-title">Explore <strong>Startup Marketplace</strong></h2>
+      </div>
+    </div>
+    <div class="row" id="productCardContainer"></div>
+  </div>
+</section>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-umbrella ion-logo-umbrella"></i>
-                                <div class="content-box">
-                                    <h4>Audit &amp; Assurance</h4>
-                                    <p>Senectus accumsan malesuada cursus dapibus sem primis cubilia, per potenti
-                                        fermentu massa pulvinar turpis taciti, pellentesque.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
+<script>
+  const serviceData = [
+    {
+      id: 201,
+      title: "GST Registration",
+      description: "If you are looking for a knowledgeable and reliable individual with extensive experience.",
+      img: "assets/Services/GST-icon.png"
+    },
+    {
+      id: 202,
+      title: "Income Tax",
+      description: "It is just a form that must be submitted to the tax authority. A form to be submitted as an income tax return.",
+      img: "assets/Services/accounting.png"
+    },
+    {
+      id: 203,
+      title: "Company Registration",
+      description: "Forming a limited liability company is one of the highly recommended.",
+      img: "assets/Services/building-insurance.png"
+    },
+    {
+      id: 204,
+      title: "FSSAI Registration",
+      description: "Registration with the FSSAI is mandatory for everyone in the food business. It would be helpful if you could.",
+      img: "assets/Services/fast-food.png"
+    },
+    {
+      id: 205,
+      title: "Factory Licensing",
+      description: "Local authorities issue licenses under Factories Act 1948 for factory operations ensuring worker safety.",
+      img: "assets/Services/factory.png"
+    },
+    {
+      id: 206,
+      title: "Accounting Services",
+      description: "Online Consultant Accounting services include tax preparation and counseling. Only @199.",
+      img: "assets/Services/budget.png"
+    },
+    {
+      id: 207,
+      title: "Pollution NOC",
+      description: "SPCBs/PCCs issue NOCs to industries per Air Act (1981) & Water Act (1974) for environmental compliance.",
+      img: "assets/Services/industry.png"
+    },
+    {
+      id: 208,
+      title: "MSME Registration",
+      description: "Service MSMEs need < Rs. 10 crore investment in machinery. Micro: < Rs. 1 crore investment.",
+      img: "assets/Services/building.png"
+    }
+  ];
 
-                            <div class="empty_space_30"><span class="empty_space_inner"></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-cube ion-logo-cube"></i>
-                                <div class="content-box">
-                                    <h4>Financial Consulting</h4>
-                                    <p>Justo luctus mus ultricies habitasse dictumst senectus habitant, primis erat
-                                        mauris odio faucibus cras non interdum purus sociis.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
+  window.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("productCardContainer");
 
-                            <div class="empty_space_30"><span class="empty_space_inner"></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-podium ion-logo-podium"></i>
-                                <div class="content-box">
-                                    <h4>Trades &amp; Stocks</h4>
-                                    <p>Risus aenean ultricies integer purus sociis luctus tristique, sodales fusce ante
-                                        maecenas massa cum est, ligula hac cursus.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
+    if (container) {
+      serviceData.forEach(item => {
+        const col = document.createElement("div");
+        col.className = "col-12 col-sm-6 col-md-3 d-flex custom-card-wrapper";
 
-                            <div class="empty_space_30"><span class="empty_space_inner"></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-list-box ion-logo-list-box"></i>
-                                <div class="content-box">
-                                    <h4>Strategic Planning</h4>
-                                    <p>Mus leo mauris nec erat ullamcorper orci nascetur, est faucibus auctor natoque
-                                        tempus eu, eros condimentum et taciti rhoncus.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
-
-                            <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-cash ion-logo-cash"></i>
-                                <div class="content-box">
-                                    <h4>Financial Projections</h4>
-                                    <p>Varius scelerisque tristique condimentum habitant dui euismod auctor lacinia
-                                        maecenas cubilia eleifend erat, purus malesuada.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
-
-                            <div class="empty_space_30 lg-hidden md-hidden"><span class="empty_space_inner"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpb_column column_container col-sm-6 col-md-4">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="service-box icon-box  ionic  hover-box">
-                                <i class="ion-md-wallet ion-logo-wallet"></i>
-                                <div class="content-box">
-                                    <h4>Bonds &amp; Commodities</h4>
-                                    <p>Dis vel quam partur+ient et molestie at morbi vehicula mus phasellussenectus
-                                        congue lacinia pulvinar turpis taciti, pellentesque.</p>
-                                    <a class="link-box pagelink" href="service-detail.html" target="_self">Read more</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+        col.innerHTML = `
+          <a href="service-details.php?id=${item.id}" class="text-decoration-none w-100">
+            <div class="custom-card h-100">
+              <img src="${item.img}" class="img-fluid custom-card-img" alt="${item.title}">
+              <h4 class="custom-card-title">${item.title}</h4>
+              <p class="custom-card-desc">${item.description}</p>
             </div>
-        </div>
-    </section>
+          </a>
+        `;
+
+        container.appendChild(col);
+      });
+    }
+  });
+</script>
+
+<style>
+  /* Modern UI custom styles - safe names */
+  .custom-section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+  }
+
+  .custom-card-wrapper {
+    padding: 12px;
+  }
+
+  .custom-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+    padding: 28px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .custom-card-img {
+    max-height: 100px;
+    object-fit: contain;
+  }
+
+  .custom-card-title {
+    font-size: 1.9rem;
+    font-weight: 1000;
+    color: #333;
+    text-align: center;
+    margin: 0;
+  }
+
+  .custom-card-desc {
+    font-size: 1.20rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.75;
+    font-weight: 900;
+  }
+
+  /* Mobile tweaks */
+  @media (max-width: 576px) {
+    .custom-team-section {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+
+    .custom-card {
+      padding: 24px 18px;
+    }
+
+    .custom-card-title {
+      font-size: 1.4rem;
+    }
+
+    .custom-card-desc {
+      font-size: 1.20rem;
+      font-weight: 900;
+    }
+  }
+</style>
+
+
+<!--Service catelog End-->
 
 
     <section class="wpb_row row-fluid section-padd-top bg-light">
