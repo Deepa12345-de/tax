@@ -234,6 +234,13 @@ margin: 0px;
   font-weight: bold;
   color: #00387a;
 }
+.mobile_mainmenu .sub-menu {
+    display: none;
+    transition: all 0.3s ease;
+}
+.mobile_mainmenu li.open > .sub-menu {
+    display: block;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.

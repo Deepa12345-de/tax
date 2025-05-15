@@ -949,3 +949,32 @@
                  }
              });
          </script>
+         <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll(".mobile_mainmenu > li.menu-item-has-children > a");
+
+    menuItems.forEach(function (menuItem) {
+        menuItem.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const parentLi = this.parentElement;
+            const currentlyOpen = document.querySelector(".mobile_mainmenu > li.open");
+
+            // Close other open submenus
+            if (currentlyOpen && currentlyOpen !== parentLi) {
+                currentlyOpen.classList.remove("open");
+                const submenu = currentlyOpen.querySelector(".sub-menu");
+                if (submenu) submenu.style.display = "none";
+            }
+
+            // Toggle current submenu
+            const submenu = parentLi.querySelector(".sub-menu");
+            if (submenu) {
+                const isOpen = parentLi.classList.contains("open");
+                submenu.style.display = isOpen ? "none" : "block";
+                parentLi.classList.toggle("open");
+            }
+        });
+    });
+});
+</script>
