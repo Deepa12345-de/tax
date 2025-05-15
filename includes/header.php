@@ -23,5 +23,13 @@
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
 
+    <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+
+
+
     <link rel="shortcut icon" href="favicon.png">
 </head>

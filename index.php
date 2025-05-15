@@ -3,95 +3,97 @@ include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 <div id="content" class="site-content">
-<section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
-    <div id="revolution-slider">
-        <ul>
-            <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
-                <!--  BACKGROUND IMAGE -->
-                <img src="images/slide-home1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-                    data-bgrepeat="no-repeat" data-bgparallax="10" />
-                <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="['0']" data-y="bottom"
-                    data-voffset="" data-width="['auto','320','auto','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
-                    data-responsive_offset="on">
-                    <img class="img-responsive md-hidden sm-hidden xs-hidden" src="images/man-slide.png"
-                        alt="Image">
-                </div>
-                <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
-                    data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200"
-                    data-width="['580','580','480','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500"
-                    data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']"
-                    data-responsive_offset="on">
-                    <p>WE'RE TexSquire</p>
-                </div>
-                <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
-                    data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']"
-                    data-width="['670','580','480','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700"
-                    data-whitespace="['normal']" data-fontsize="['50','50','40','30']"
-                    data-lineheight="['60','60','50','40']" data-responsive_offset="on">
-                    <p>Transforming Your Business Financially</p>
-                </div>
-                <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']"
-                    data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']"
-                    data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900"
-                    data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']"
-                    data-responsive_offset="on">
-                    <p>Our billing solutions help you manage your finances seamlessly, driving growth and success.</p>
-                </div>
-                
-            </li>
+    <section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
+        <div id="revolution-slider">
+            <ul>
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img src="images/slide-home1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" data-bgparallax="10" />
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="['0']" data-y="bottom"
+                        data-voffset="" data-width="['auto','320','auto','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                        data-responsive_offset="on">
+                        <img class="img-responsive md-hidden sm-hidden xs-hidden" src="images/man-slide.png"
+                            alt="Image">
+                    </div>
+                    <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
+                        data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200"
+                        data-width="['580','580','480','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500"
+                        data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']"
+                        data-responsive_offset="on">
+                        <p>WE'RE TexSquire</p>
+                    </div>
+                    <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
+                        data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']"
+                        data-width="['670','580','480','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700"
+                        data-whitespace="['normal']" data-fontsize="['50','50','40','30']"
+                        data-lineheight="['60','60','50','40']" data-responsive_offset="on">
+                        <p>Transforming Your Business Financially</p>
+                    </div>
+                    <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']"
+                        data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']"
+                        data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900"
+                        data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']"
+                        data-responsive_offset="on">
+                        <p>Our billing solutions help you manage your finances seamlessly, driving growth and success.
+                        </p>
+                    </div>
 
-            <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
-                <!--  BACKGROUND IMAGE -->
-                <img src="images/slide-home1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
-                    data-bgrepeat="no-repeat" data-bgparallax="10" />
-                <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="" data-y="bottom" data-voffset=""
-                    data-width="['auto','380','auto','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
-                    data-responsive_offset="on">
-                    <img class="img-responsive md-hidden sm-hidden xs-hidden" src="images/woman-slide.png"
-                        alt="Image">
-                </div>
-                <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
-                    data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200"
-                    data-width="['580','580','480','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500"
-                    data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']"
-                    data-responsive_offset="on">
-                    <p>WE'RE TexSquire</p>
-                </div>
-                <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
-                    data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']"
-                    data-width="['670','580','480','320']" data-transform_idle="o:1;"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700"
-                    data-whitespace="['normal']" data-fontsize="['50','50','40','30']"
-                    data-lineheight="['60','60','50','40']" data-responsive_offset="on">
-                    <p>Empowering Your Business Financial Decisions</p>
-                </div>
-                <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']"
-                    data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']"
-                    data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']"
-                    data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900"
-                    data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']"
-                    data-responsive_offset="on">
-                    <p>Our expert solutions assist you in managing your business finances effectively to maximize growth.</p>
-                </div>
-               
-            </li>
-        </ul>
-    </div>
-</section>
+                </li>
+
+                <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
+                    <!--  BACKGROUND IMAGE -->
+                    <img src="images/slide-home1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" data-bgparallax="10" />
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="" data-y="bottom" data-voffset=""
+                        data-width="['auto','380','auto','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:550px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000"
+                        data-responsive_offset="on">
+                        <img class="img-responsive md-hidden sm-hidden xs-hidden" src="images/woman-slide.png"
+                            alt="Image">
+                    </div>
+                    <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
+                        data-hoffset="['0','15','15','15']" data-y="top" data-voffset="200"
+                        data-width="['580','580','480','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500"
+                        data-whitespace="['nowrap','nowrap','nowrap','normal']" data-fontsize="['14','14','14','14']"
+                        data-responsive_offset="on">
+                        <p>WE'RE TexSquire</p>
+                    </div>
+                    <div class="tp-caption tp-resizeme font-second text-second bolder" data-x="['left']"
+                        data-hoffset="['0','15','15','15']" data-y="center" data-voffset="['-45','-45','-45','-45']"
+                        data-width="['670','580','480','320']" data-transform_idle="o:1;"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1700"
+                        data-whitespace="['normal']" data-fontsize="['50','50','40','30']"
+                        data-lineheight="['60','60','50','40']" data-responsive_offset="on">
+                        <p>Empowering Your Business Financial Decisions</p>
+                    </div>
+                    <div class="tp-caption tp-resizeme sh3" data-x="['left']" data-hoffset="['0','15','15','15']"
+                        data-y="center" data-voffset="['60','60','60','60']" data-width="['580','580','480','300']"
+                        data-transform_idle="o:1;" data-whitespace="['normal','normal','normal','normal']"
+                        data-transform_in="x:100px;opacity:0;s:800;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1900"
+                        data-fontsize="['16','16','14','12']" data-lineheight="['24','24','18','16']"
+                        data-responsive_offset="on">
+                        <p>Our expert solutions assist you in managing your business finances effectively to maximize
+                            growth.</p>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </section>
 
 
     <section class="wpb_row row-fluid top-70 row-has-fill relative bg-light">
@@ -218,81 +220,81 @@ include 'includes/navbar.php';
             </div>
         </div>
     </section>
-<!--Service catelog Start-->
+    <!--Service catelog Start-->
 
-<div class="clearfix"></div>
-<section id="team" class="pb-5 custom-team-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2 class="custom-section-title">Explore <strong>Startup Marketplace</strong></h2>
-      </div>
-    </div>
-    <div class="row" id="productCardContainer"></div>
-  </div>
-</section>
+    <div class="clearfix"></div>
+    <section id="team" class="pb-5 custom-team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="custom-section-title">Explore <strong>Startup Marketplace</strong></h2>
+                </div>
+            </div>
+            <div class="row" id="productCardContainer"></div>
+        </div>
+    </section>
 
-<script>
-  const serviceData = [
-    {
-      id: 201,
-      title: "GST Registration",
-      description: "If you are looking for a knowledgeable and reliable individual with extensive experience.",
-      img: "assets/Services/GST-icon.png"
-    },
-    {
-      id: 202,
-      title: "Income Tax",
-      description: "It is just a form that must be submitted to the tax authority. A form to be submitted as an income tax return.",
-      img: "assets/Services/accounting.png"
-    },
-    {
-      id: 203,
-      title: "Company Registration",
-      description: "Forming a limited liability company is one of the highly recommended.",
-      img: "assets/Services/building-insurance.png"
-    },
-    {
-      id: 204,
-      title: "FSSAI Registration",
-      description: "Registration with the FSSAI is mandatory for everyone in the food business. It would be helpful if you could.",
-      img: "assets/Services/fast-food.png"
-    },
-    {
-      id: 205,
-      title: "Factory Licensing",
-      description: "Local authorities issue licenses under Factories Act 1948 for factory operations ensuring worker safety.",
-      img: "assets/Services/factory.png"
-    },
-    {
-      id: 206,
-      title: "Accounting Services",
-      description: "Online Consultant Accounting services include tax preparation and counseling. Only @199.",
-      img: "assets/Services/budget.png"
-    },
-    {
-      id: 207,
-      title: "Pollution NOC",
-      description: "SPCBs/PCCs issue NOCs to industries per Air Act (1981) & Water Act (1974) for environmental compliance.",
-      img: "assets/Services/industry.png"
-    },
-    {
-      id: 208,
-      title: "MSME Registration",
-      description: "Service MSMEs need < Rs. 10 crore investment in machinery. Micro: < Rs. 1 crore investment.",
-      img: "assets/Services/building.png"
-    }
-  ];
+    <script>
+        const serviceData = [
+            {
+                id: 201,
+                title: "GST Registration",
+                description: "If you are looking for a knowledgeable and reliable individual with extensive experience.",
+                img: "assets/Services/GST-icon.png"
+            },
+            {
+                id: 202,
+                title: "Income Tax",
+                description: "It is just a form that must be submitted to the tax authority. A form to be submitted as an income tax return.",
+                img: "assets/Services/accounting.png"
+            },
+            {
+                id: 203,
+                title: "Company Registration",
+                description: "Forming a limited liability company is one of the highly recommended.",
+                img: "assets/Services/building-insurance.png"
+            },
+            {
+                id: 204,
+                title: "FSSAI Registration",
+                description: "Registration with the FSSAI is mandatory for everyone in the food business. It would be helpful if you could.",
+                img: "assets/Services/fast-food.png"
+            },
+            {
+                id: 205,
+                title: "Factory Licensing",
+                description: "Local authorities issue licenses under Factories Act 1948 for factory operations ensuring worker safety.",
+                img: "assets/Services/factory.png"
+            },
+            {
+                id: 206,
+                title: "Accounting Services",
+                description: "Online Consultant Accounting services include tax preparation and counseling. Only @199.",
+                img: "assets/Services/budget.png"
+            },
+            {
+                id: 207,
+                title: "Pollution NOC",
+                description: "SPCBs/PCCs issue NOCs to industries per Air Act (1981) & Water Act (1974) for environmental compliance.",
+                img: "assets/Services/industry.png"
+            },
+            {
+                id: 208,
+                title: "MSME Registration",
+                description: "Service MSMEs need < Rs. 10 crore investment in machinery. Micro: < Rs. 1 crore investment.",
+                img: "assets/Services/building.png"
+            }
+        ];
 
-  window.addEventListener("DOMContentLoaded", () => {
-    const container = document.getElementById("productCardContainer");
+        window.addEventListener("DOMContentLoaded", () => {
+            const container = document.getElementById("productCardContainer");
 
-    if (container) {
-      serviceData.forEach(item => {
-        const col = document.createElement("div");
-        col.className = "col-12 col-sm-6 col-md-3 d-flex custom-card-wrapper";
+            if (container) {
+                serviceData.forEach(item => {
+                    const col = document.createElement("div");
+                    col.className = "col-12 col-sm-6 col-md-3 d-flex custom-card-wrapper";
 
-        col.innerHTML = `
+                    col.innerHTML = `
           <a href="service-details.php?id=${item.id}" class="text-decoration-none w-100">
             <div class="custom-card h-100">
               <img src="${item.img}" class="img-fluid custom-card-img" alt="${item.title}">
@@ -302,90 +304,15 @@ include 'includes/navbar.php';
           </a>
         `;
 
-        container.appendChild(col);
-      });
-    }
-  });
-</script>
-
-<style>
-  /* Modern UI custom styles - safe names */
-  .custom-section-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 2rem;
-    letter-spacing: 0.5px;
-  }
-
-  .custom-card-wrapper {
-    padding: 12px;
-  }
-
-  .custom-card {
-    background-color: #ffffff;
-    border-radius: 18px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
-    transition: all 0.3s ease;
-    padding: 28px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .custom-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  }
-
-  .custom-card-img {
-    max-height: 100px;
-    object-fit: contain;
-  }
-
-  .custom-card-title {
-    font-size: 1.9rem;
-    font-weight: 1000;
-    color: #333;
-    text-align: center;
-    margin: 0;
-  }
-
-  .custom-card-desc {
-    font-size: 1.20rem;
-    color: #555;
-    text-align: center;
-    line-height: 1.75;
-    font-weight: 900;
-  }
-
-  /* Mobile tweaks */
-  @media (max-width: 576px) {
-    .custom-team-section {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem;
-    }
-
-    .custom-card {
-      padding: 24px 18px;
-    }
-
-    .custom-card-title {
-      font-size: 1.4rem;
-    }
-
-    .custom-card-desc {
-      font-size: 1.20rem;
-      font-weight: 900;
-    }
-  }
-</style>
+                    container.appendChild(col);
+                });
+            }
+        });
+    </script>
 
 
-<!--Service catelog End-->
+
+    <!--Service catelog End-->
 
 
     <section class="wpb_row row-fluid section-padd-top bg-light">
@@ -422,99 +349,111 @@ include 'includes/navbar.php';
 
 
     <section class="wpb_row row-fluid section-padd-bot row-has-fill row-full-width row-no-padding bg-light">
-    <div class="row">
-        <div class="wpb_column column_container col-sm-12">
-            <div class="column-inner">
-                <div class="wpb_wrapper">
-                    <div class="project-list-2">
-                        <div class="project-slider-2 projects" data-show="1" data-auto="" data-dot="true">
+        <div class="row">
+            <div class="wpb_column column_container col-sm-12">
+                <div class="column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="project-list-2">
+                            <div class="project-slider-2 projects" data-show="1" data-auto="" data-dot="true">
 
-                            <!-- Project 1 -->
-                            <div class="col-md-12">
-                                <div class="project-item">
-                                    <div class="slide-img"><img src="images/case-slide1.jpg" alt=""></div>
-                                    <div class="inner row">
-                                        <div class="col-md-3">
-                                            <img src="images/logo1.png" alt="logo"> Contract Project: March 10, 2023
-                                            <div class="gaps lg-hidden"></div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4><a href="project-detail.html">Comprehensive Business Report 2023</a></h4>
-                                            <p>In-depth analysis of key financial metrics, projections, and strategic plans for business growth.</p>
-                                            <a class="pagelink gray" href="project-detail.html">View details</a>
+                                <!-- Project 1 -->
+                                <div class="col-md-12">
+                                    <div class="project-item">
+                                        <div class="slide-img"><img src="images/case-slide1.jpg" alt=""></div>
+                                        <div class="inner row">
+                                            <div class="col-md-3">
+                                                <img src="images/logo1.png" alt="logo"> Contract Project: March 10, 2023
+                                                <div class="gaps lg-hidden"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h4><a href="project-detail.html">Comprehensive Business Report 2023</a>
+                                                </h4>
+                                                <p>In-depth analysis of key financial metrics, projections, and
+                                                    strategic plans for business growth.</p>
+                                                <a class="pagelink gray" href="project-detail.html">View details</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Project 2 -->
-                            <div class="col-md-12">
-                                <div class="project-item">
-                                    <div class="slide-img"><img src="images/case-slide2.jpg" alt=""></div>
-                                    <div class="inner row">
-                                        <div class="col-md-3">
-                                            <img src="images/logo3.png" alt="logo"> Contract Project: February 15, 2022
-                                            <div class="gaps lg-hidden"></div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4><a href="project-detail.html">Small Business Expansion Strategy</a></h4>
-                                            <p>Exploring effective strategies for small businesses looking to scale up and improve operations.</p>
-                                            <a class="pagelink gray" href="project-detail.html">View details</a>
+                                <!-- Project 2 -->
+                                <div class="col-md-12">
+                                    <div class="project-item">
+                                        <div class="slide-img"><img src="images/case-slide2.jpg" alt=""></div>
+                                        <div class="inner row">
+                                            <div class="col-md-3">
+                                                <img src="images/logo3.png" alt="logo"> Contract Project: February 15,
+                                                2022
+                                                <div class="gaps lg-hidden"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h4><a href="project-detail.html">Small Business Expansion Strategy</a>
+                                                </h4>
+                                                <p>Exploring effective strategies for small businesses looking to scale
+                                                    up and improve operations.</p>
+                                                <a class="pagelink gray" href="project-detail.html">View details</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Project 3 -->
-                            <div class="col-md-12">
-                                <div class="project-item">
-                                    <div class="slide-img"><img src="images/case-slide3.jpg" alt=""></div>
-                                    <div class="inner row">
-                                        <div class="col-md-3">
-                                            <img src="images/logo2.png" alt="logo"> Contract Project: January 20, 2021
-                                            <div class="gaps lg-hidden"></div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4><a href="project-detail.html">Corporate Risk Management Plan</a></h4>
-                                            <p>Assessing potential risks and implementing strategies for risk mitigation in corporate settings.</p>
-                                            <a class="pagelink gray" href="project-detail.html">View details</a>
+                                <!-- Project 3 -->
+                                <div class="col-md-12">
+                                    <div class="project-item">
+                                        <div class="slide-img"><img src="images/case-slide3.jpg" alt=""></div>
+                                        <div class="inner row">
+                                            <div class="col-md-3">
+                                                <img src="images/logo2.png" alt="logo"> Contract Project: January 20,
+                                                2021
+                                                <div class="gaps lg-hidden"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h4><a href="project-detail.html">Corporate Risk Management Plan</a>
+                                                </h4>
+                                                <p>Assessing potential risks and implementing strategies for risk
+                                                    mitigation in corporate settings.</p>
+                                                <a class="pagelink gray" href="project-detail.html">View details</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <!-- Project 4 -->
-                            <div class="col-md-12">
-                                <div class="project-item">
-                                    <div class="slide-img"><img src="images/case-slide4.jpg" alt=""></div>
-                                    <div class="inner row">
-                                        <div class="col-md-3">
-                                            <img src="images/logo4.png" alt="logo"> Contract Project: December 5, 2020
-                                            <div class="gaps lg-hidden"></div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h4><a href="project-detail.html">Corporate Loan Assessment</a></h4>
-                                            <p>Evaluating and recommending corporate loan solutions to enhance liquidity and financial stability.</p>
-                                            <a class="pagelink gray" href="project-detail.html">View details</a>
+                                <!-- Project 4 -->
+                                <div class="col-md-12">
+                                    <div class="project-item">
+                                        <div class="slide-img"><img src="images/case-slide4.jpg" alt=""></div>
+                                        <div class="inner row">
+                                            <div class="col-md-3">
+                                                <img src="images/logo4.png" alt="logo"> Contract Project: December 5,
+                                                2020
+                                                <div class="gaps lg-hidden"></div>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h4><a href="project-detail.html">Corporate Loan Assessment</a></h4>
+                                                <p>Evaluating and recommending corporate loan solutions to enhance
+                                                    liquidity and financial stability.</p>
+                                                <a class="pagelink gray" href="project-detail.html">View details</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
+                            <div class="container">
+                                <div class="arrows-slick">
+                                    <button type="button" class="btn-left slick-arrow prev-nav"><i
+                                            class="fa fa-angle-left"></i></button>
+                                    <button type="button" class="btn-right slick-arrow next-nav"><i
+                                            class="fa fa-angle-right"></i></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="container">
-                            <div class="arrows-slick">
-                                <button type="button" class="btn-left slick-arrow prev-nav"><i class="fa fa-angle-left"></i></button>
-                                <button type="button" class="btn-right slick-arrow next-nav"><i class="fa fa-angle-right"></i></button>
-                            </div>
-                        </div>
+
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <section class="wpb_row row-fluid section-padd bg-second row-has-fill">
@@ -591,225 +530,61 @@ include 'includes/navbar.php';
         </div>
     </section>
 
-<section class="wpb_row row-fluid section-padd bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="wpb_column column_container col-sm-12 col-md-9">
-                <div class="column-inner">
-                    <div class="wpb_wrapper">
-                        <div class="section-head">
-                            <h6><span>our blog</span></h6>
-                            <h2 class="section-title">Latest Insights on Billing Solutions</h2>
-                        </div>
 
-                        <div class="empty_space_30 md-hidden sm-hidden"><span class="empty_space_inner"></span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="wpb_column column_container col-sm-12 col-md-3">
-                <div class="column-inner">
-                    <div class="wpb_wrapper">
-                        <div class="wpb_text_column wpb_content_element text-right mobile-left">
-                            <div class="wpb_wrapper">
-                                <p><a class="pagelink gray" href="blog.html">View all posts</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="wpb_column column_container col-sm-12">
-                <div class="column-inner">
-                    <div class="wpb_wrapper">
-                        <div class="news-slider posts-grid row" data-show="3" data-auto="true">
+    <!-- Blog  Page Starts Here  -->
+<
+<div class="container py-5">
+  <h2 class="blog-clean-heading">Latest Blog Updates</h2>
+  <div class="row g-4" id="blogCardContainer"></div>
+</div>
 
-                            <!-- Blog 1 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog1.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">April 20, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Billing Solutions</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">How to Optimize Your Billing Processes</a>
-                                            </h4>
-                                            <p>
-                                                Explore strategies for streamlining billing workflows, reducing errors, and increasing efficiency.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
+<script>
+  const blogPosts = [
+    {
+      image: "https://img.freepik.com/free-vector/pay-per-click-infographics-illustration-touch-your-finger-screen-laptop_1284-45929.jpg",
+      title: "Top Features Every GST Billing Software Should Have",
+      description: "From real-time GST calculations to customizable invoices — here’s what to look for when choosing the right tool.",
+      link: "#"
+    },
+    {
+      image: "https://img.freepik.com/free-photo/top-view-woman-typing-laptop_23-2150062347.jpg",
+      title: "Why Automation is the Future of Invoicing",
+      description: "Ditch the manual work. Learn how automated GST invoicing can save you time, errors, and penalties.",
+      link: "#"
+    },
+    {
+      image: "https://img.freepik.com/free-photo/top-view-woman-typing-laptop_23-2150062347.jpg",
+      title: "Generate GST-Compliant Reports in Seconds",
+      description: "Simplify your tax filing with one-click exports for GSTR-1, GSTR-3B, and more.",
+      link: "#"
+    }
+  ];
 
-                            <!-- Blog 2 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog2.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">April 15, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Project Management</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">The Role of Automation in Project Billing</a>
-                                            </h4>
-                                            <p>
-                                                Discover how automation is transforming the billing landscape for project-based businesses.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
+  const container = document.getElementById('blogCardContainer');
 
-                            <!-- Blog 3 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog3.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">April 10, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Client Success Stories</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">Client Spotlight: A Seamless Billing Transition</a>
-                                            </h4>
-                                            <p>
-                                                A detailed look at how our billing solutions helped one client transition to a more efficient system.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
+  blogPosts.forEach(post => {
+    const col = document.createElement('div');
+    col.classList.add('col-12', 'col-md-6', 'col-lg-4');
 
-                            <!-- Blog 4 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog4.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">March 30, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Billing Best Practices</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">Essential Billing Best Practices for Businesses</a>
-                                            </h4>
-                                            <p>
-                                                Discover the best practices for accurate and timely billing, ensuring your business runs smoothly.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Blog 5 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog5.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">March 25, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Technology Insights</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">The Future of AI in Billing Systems</a>
-                                            </h4>
-                                            <p>
-                                                Explore the impact of artificial intelligence on automating and optimizing billing systems for businesses.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-
-                            <!-- Blog 6 -->
-                            <div>
-                                <article class="news-item content-area">
-                                    <div class="inner-item radius-top">
-                                        <div class="thumb-image">
-                                            <a href="post.html">
-                                                <img src="images/blog6.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="inner-post radius-bottom">
-                                            <div class="entry-meta">
-                                                <span class="posted-on">
-                                                    <time class="entry-date">March 20, 2025</time>
-                                                </span>
-                                                <span class="posted-in">
-                                                    <a href="#">Client Success Stories</a>
-                                                </span>
-                                            </div>
-                                            <h4 class="entry-title">
-                                                <a href="post.html">How We Helped a Startup Streamline Its Billing Process</a>
-                                            </h4>
-                                            <p>
-                                                Learn how we worked with a startup to simplify and automate their billing process for faster payments.
-                                            </p>
-                                            <a class="post-link" href="post.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+    col.innerHTML = `
+      <div class="blog-card card h-100 shadow-sm">
+        <img src="${post.image}" class="card-img-top blog-card-img" alt="${post.title}">
+        <div class="card-body d-flex flex-column">
+          <h5 class="blog-title">${post.title}</h5>
+          <p class="blog-desc">${post.description}</p>
+          <a href="${post.link}" class="btn blog-read-btn mt-auto">Read More</a>
         </div>
-    </div>
-</section>
-    
+      </div>
+    `;
+    container.appendChild(col);
+  });
+</script>
+
+
+    <!-- Blog  Page End Here  -->
+
+
+
     <section class="wpb_row row-fluid section-padd">
         <div class="container">
             <div class="row">
