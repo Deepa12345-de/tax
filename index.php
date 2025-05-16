@@ -583,189 +583,93 @@ include 'includes/navbar.php';
 
     <!-- Blog  Page End Here  -->
 
+<!-- Testinomial Section Start here    -->
+
+    <div class="container py-5 mb-4 mt-5">
+<h2 class="text-center mb-4 fw-bold" style="font-size: 2.3rem;">
+  <span style="color: #333; display: inline-block; margin-top: 10px;">Our Customers Say</span><br>
+  <span style="display: inline-block; background: linear-gradient(90deg, #011a29, #00c3ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800;">
+    We give awesome services
+  </span><br>
+  <small class="text-muted d-block mt-2" style="font-size: 1.1rem;">
+    See how real people feel about working with us ✨
+  </small>
+</h2>
 
 
-    <section class="wpb_row row-fluid section-padd">
-        <div class="container">
-            <div class="row">
-                <div class="wpb_column column_container col-sm-12">
-                    <div class="column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="section-head ">
-                                <h6><span>testimonial &amp; partner</span></h6>
-                                <h2 class="section-title">What our clients says?</h2>
-                            </div>
-
-                            <div class="empty_space_30"><span class="empty_space_inner"></span></div>
-
-                            <div class="testi-slider" data-show="3" data-arrow="true">
-
-                                <div>
-                                    <div class="testi-item box-shadow-hover">
-                                        <div class="testi-head">
-                                            <img width="50" height="50" src="images/avatar4.png" class="client-img"
-                                                alt="">
-                                            <h5>Pooja Mehra<span class="font12 normal">from Delhi</span></h5>
-                                        </div>
-                                        <div class="line"></div>
-                                        <div class="testi-content">
-                                            <i class="ion-md-quote"></i>
-                                            <img src="images/stars.png" alt="">
-                                            <p>TexSquire made our GST billing super easy. Now I generate invoices in
-                                                seconds. Highly recommended!</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="testi-item box-shadow-hover">
-                                        <div class="testi-head">
-                                            <img width="50" height="50" src="images/avatar9.png" class="client-img"
-                                                alt="">
-                                            <h5>Ravi Kumar<span class="font12 normal">from Mumbai</span></h5>
-                                        </div>
-                                        <div class="line"></div>
-                                        <div class="testi-content">
-                                            <i class="ion-md-quote"></i>
-                                            <img src="images/stars.png" alt="">
-                                            <p>Managing invoices and tracking payments is so smooth with TexSquire.
-                                                Totally stress-free billing!</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="testi-item box-shadow-hover">
-                                        <div class="testi-head">
-                                            <img width="50" height="50" src="images/avatar3.png" class="client-img"
-                                                alt="">
-                                            <h5>Manish Gupta<span class="font12 normal">from Lucknow</span></h5>
-                                        </div>
-                                        <div class="line"></div>
-                                        <div class="testi-content">
-                                            <i class="ion-md-quote"></i>
-                                            <img src="images/stars.png" alt="">
-                                            <p>As a small business owner, TexSquire helped me stay on top of my billing
-                                                and save hours every week.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-                            <div class="empty_space_80"><span class="empty_space_inner"></span></div>
-
-                            <div class="partner-slider image-carousel text-center" data-show="5" data-arrow="false">
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo2.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo3.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo4.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo5.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo2.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo3.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo4.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <div class="partner-item text-center clearfix">
-                                        <div class="inner">
-                                            <div class="thumb">
-                                                <img src="images/logo5.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="testimonialCard" class="testimonial-card">
+            <!-- Testimonial content goes here -->
         </div>
-    </section>
 
+        <div class="testimonial-dots mt-3 mb-4" id="dotsContainer"></div>
+    </div>
+
+    <script>
+        const testimonials = [
+            {
+                name: "Bharat Kumar",
+                title: "10/06/2023",
+                quote: "Experts and professionals with expertise in the area of Direct Taxation, GST, Internal Audit, Statutory Audit, Risk Advisory, Advisory and Legal Services. I am really satisfied with the service provided by Tax Esquire.",
+                image: "assets/testimonial/bharat-kumar.png"
+            },
+            {
+                name: "Abhishek Sharma",
+                title: "10/06/2023",
+                quote: "Highly reputed firm with commitment, compassion & customer satisfaction at its core. Offers a vast array of services with smooth & supportive working environment.",
+                image: "assets/testimonial/abhishek-sharma.png"
+            },
+            {
+                name: "Sudhir Kumar",
+                title: "10/06/2023",
+                quote: "If you're looking for the best CA services in Noida, Tax Esquire is the one. Super professional and experienced team!",
+                image: "https://randomuser.me/api/portraits/men/44.jpg"
+            },
+            {
+                name: "Sakshi Gupta",
+                title: "15/06/2023",
+                quote: "The legal and financial guidance here is unmatched. The support staff is very friendly and professional. Highly recommended!",
+                image: "https://randomuser.me/api/portraits/women/65.jpg"
+            }
+        ];
+
+        let currentIndex = 0;
+        const testimonialCard = document.getElementById("testimonialCard");
+        const dotsContainer = document.getElementById("dotsContainer");
+
+        function renderTestimonial(index) {
+            const t = testimonials[index];
+            testimonialCard.innerHTML = `
+            <p>"${t.quote}"</p>
+            <div class="testimonial-info">
+              <img src="${t.image}" alt="${t.name}" />
+              <div>
+                <div class="testimonial-name">${t.name}</div>
+                <div class="testimonial-title">${t.title}</div>
+              </div>
+            </div>
+          `;
+
+            dotsContainer.innerHTML = testimonials.map((_, i) => `
+            <div class="dot ${i === index ? 'active' : ''}" onclick="goToTestimonial(${i})"></div>
+          `).join('');
+        }
+
+        function goToTestimonial(index) {
+            currentIndex = index;
+            renderTestimonial(currentIndex);
+        }
+
+        function autoSlide() {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            renderTestimonial(currentIndex);
+        }
+
+        // Start
+        renderTestimonial(currentIndex);
+        setInterval(autoSlide, 6000); // every 6 seconds
+    </script>
+    </div>
+<!-- Testinomial Section End here    -->
 
 </div>
 <!-- #content -->
