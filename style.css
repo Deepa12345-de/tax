@@ -5978,3 +5978,100 @@ div.line-chart .chart-legend li {
 /* Who we are start  */
 
 /* Who we are ENd  */
+
+
+
+/* testimonial Start  */
+.testimonial-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  padding: 3rem 2.5rem;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  transition: all 0.4s ease;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #333;
+  font-size: 1.75rem;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8;
+}
+
+.testimonial-info {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-info img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 3px solid #011a29;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.testimonial-name {
+  font-weight: 900;
+  font-size: 1.7rem;
+  color: #011a29;
+}
+
+.testimonial-title {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+}
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+  margin-bottom: 2%;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  margin-bottom: 2%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active,
+.dot:hover {
+  background: #011a29;
+  transform: scale(1.2);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .testimonial-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .testimonial-card p {
+    font-size: 1.45rem;
+  }
+
+  .testimonial-name {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-title {
+    font-size: 0.9rem;
+  }
+}
+
+  /* Testimonial Section End */
